@@ -1,0 +1,45 @@
+{
+  "name": "contribution-farmer",
+  "version": "0.1.0",
+  "description": "Pick an open-source repo, get it set up locally, and get walked through a first contribution maintainers will want to merge.",
+  "author": "Brian Maina",
+  "type": "module",
+  "bin": {
+    "contribution-farmer": "bin/cli.js",
+    "cfarm": "bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "keywords": [
+    "open-source",
+    "contributing",
+    "good-first-issue",
+    "cli",
+    "github",
+    "first-contribution"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianmmaina/contribution-farmer.git"
+  },
+  "homepage": "https://github.com/brianmmaina/contribution-farmer#readme",
+  "bugs": {
+    "url": "https://github.com/brianmmaina/contribution-farmer/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@clack/prompts": "1.8.1",
+    "picocolors": "1.1.1"
+  }
+}
